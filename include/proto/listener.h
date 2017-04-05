@@ -142,6 +142,7 @@ static inline struct bind_conf *bind_conf_alloc(struct list *lh, const char *fil
 	return bind_conf;
 }
 
+extern struct xfer_sock_list *xfer_sock_list;
 #endif /* _PROTO_LISTENER_H */
 
 /*
