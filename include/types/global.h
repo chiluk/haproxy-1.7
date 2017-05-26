@@ -77,6 +77,8 @@
 #define ACCESS_LVL_MASK     0x3
 
 
+#define ACCESS_FD_LISTENERS 0x4  /* expose listeners FDs on stats socket */
+
 /* SSL server verify mode */
 enum {
 	SSL_SERVER_VERIFY_NONE = 0,
